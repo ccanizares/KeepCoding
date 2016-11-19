@@ -1,6 +1,6 @@
 ---
 title: Implementa OpenId Connect, no más passwords!
-updated: 2015-09-12 15:56
+updated: 2016-09-12 15:56
 ---
 
 En el mundo web actual el protocolo de autenticación que parece ya se ha establecido en OpenId Connect que vendría a ser una extensión del más conocido OAuth 2.0. OAuth está diseñado para hacer frente a procesos de autorización (...) mientras OpenId Connect es una especificación que extiende OAuth 2.0 para proporcionarle un mecanismo de autenticación y por tanto poder identificar al usuario. 
@@ -9,7 +9,7 @@ Por poner un ejemplo para hospedar este blog estoy registrado en el servicio web
 
 [Según esta clafisicación que acabamos de hablar podríamos enumerar diferentes tipos de proveedores de servicios:](#)
 
-1 - Los que directamente te registras creando un usuario y una contraseña (GitHub)
+1 - Los que directamente te registras creando un usuario + email y una contraseña (GitHub)
 
 2 - Los que te dejan registrarte mediante un proveedor de identidad o también conocido como social login (Spotify).
 
@@ -24,7 +24,7 @@ Algunos usuarios optan por usar siempre el mismo password en todos los sites... 
 
 Otra opción es usar un password diferente en cada sitio y tener un lugar que solo tu conozcas donde guardas estas contraseñas para acordarte de todas.. la variante que yo uso es tener una password complicada y fuerte y en cada site concaternarle palabras delante y detrás según un pattern mental que te creas... mi pattern no es infalible y tengo que resetear passwords de sites más a menudo de lo que me gustaría porque no me acuerdo. 
 
-> Como usuario me gustaría tener una o dos identidades digitales y de este modo confiar únicamente mis credenciales a estas empresas. Suena un poco utópico pero si todos los sites que proveen servicios proporcionasen la posibilidad de usar identidad de terceros se acabaría el problema de tener que recordad N passwords de N sites. 
+> Como usuario me gustaría tener una o dos identidades digitales y de este modo confiar únicamente mis credenciales a estas empresas. Suena un poco utópico pero si todos los sites que proveen servicios proporcionasen la posibilidad de usar identidad de terceros se acabaría el problema de tener que recordad N passwords de N sites. A la contra hay quien puede decir que si consiguen tu clave del IDP ya podrían acceder a todas tus cuentas y en parte tienen razón pero yo confío en que un IDP como Google no sea hackeado ... Tener muchos passwords es un infierno y punto jajajja. 
 
 ### Desde el punto de vista de un proveedor de servicios (developer mode)
 Como developer conocedor de este tipo de escenarios a día de hoy no se me ocurre ningún inconveniente por el cual no implementaría este tipo de flujo y así permitir a mis usuarios que decidan si quieren usar la identidad que ya provee un tercero. En estos momentos los proveedores de identidad que destacan son las grandes empresas de servicios en internet como Microsoft, Google, Facebook o Twitter. 
