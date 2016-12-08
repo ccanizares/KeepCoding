@@ -12,7 +12,7 @@ En mi tiempo libre intento hacerme rico desarrollando aplicaciones nativas para 
 A parte de este blog, comparto un par más con unos compañeros.
 
 <a href='http://restlessminds.io'>Restless Minds</a> Desarrollo de aplicaciones móviles nativas, hibridas, noticias sobre movilidad, etc.
-<a href='http//www.areaTIC.net'>areaTIC</a> Pupurri de todo un poco. 
+<a href='http://www.areaTIC.net'>areaTIC</a> Pupurri de todo un poco. 
 
 Espero te resulte interesante alguno de los posts que vierto por internet o como mínimo no te incomoden! 
 
