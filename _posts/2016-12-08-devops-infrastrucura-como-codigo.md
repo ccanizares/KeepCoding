@@ -14,7 +14,7 @@ y los que mantienen esa infraestructura de máquinas.
 
 ### Mis inicios
 En mi caso al principio de desarrollar todo esto era más de estar por casa, en la empresa donde empecé teníamos un servidor de desarrollo que era un PC debajo
-de mi mesa en el que convivían todo tipo de versiones y pruebas. A medida que la arquitectura de la aplicación paso a ser distribuida intervenían más máquinas
+de una mesa en el que convivían todo tipo de versiones y pruebas. A medida que la arquitectura de la aplicación paso a ser distribuida intervenían más máquinas
 y el sistema del PC deja de escalar. 
 
 ### Evolución I - Entornos de integración
@@ -22,18 +22,9 @@ Otro tema es que uno va adquiriendo más profesionalidad y se empieza a sacar re
 y consolidan las versiones de software. Por tanto la necesidad de máquina crece exponencialmente a medida que en el desarrollo de software evoluciona. 
 
 ### Evolución II - Involucramos IT + Virtualización
-Con el tiempo la empresa donde estaba pasó a tener area própia de IT. Estos montaron un sistema de virtualización y mi Pc paso a ser un servidor 'viejo' 
+Con el tiempo la empresa donde estaba pasó a tener area própia de IT. Estos montaron un sistema de virtualización y mi Pc paso a ser un servidor  
 enracado en el CPD de la empresa que mantenía el area de IT, al cual mediante una solicitud o ticket podías pedirle a IT que crease 
 una imagen nueva o modificase las características de otra, etc. Esto ya permitía tener más de una máquina. 
-
-#### Primeras fricciones entre desarrollo e IT
-Siguiendo con mi historia, al cabo de un tiempo el area de IT pasa a tener mucho trabajo dado que les abre tickets hasta el corbatero que no sabe usar Office 
-y considera que eso no va con él sino que los de IT están ahí para compensar que el señor no ha hecho el curso de ofimática porque es un tio muy importante 
-y para esas cosas de raras de Emails y Excels ya están los 'informáticos'.
-
-Claro entonces si desarrollo pide una máquina, la petición puede demorarse días porque están muy ocupados. Esto nos hace quitarle el polvo al PC en momentos puntuales y 
-me veo obligado a recuperar mis dotes de tio de IT configurando los entornos que necesitamos. Evidentemente no gusta a IT dado que hay máquinas conectadas 
-a la red corporativa que no mantienen ellos lo cual se sale de la situación ideal, pero la necesidad del equipo de desarrollo tiene que cubrirse...
 
 ### Integración continua
 Hasta ahora he explicado como pasamos de un desarrollo campechano o anticuado a uno más enterprise donde surge la necesidad de varios entornos, 
@@ -59,7 +50,7 @@ permite crear estos recuersos a partir de scripts que pueden almacenarse en fich
 de tu proyecto es bastante interesante sin duda... sin más, esto es IAC tal vez hace tiempo que lo practicas y no le habías puesto nombre.
 
 ### ¿Qué es DevOps?
-La definición de wikipedia, la tenéis al principio del post. Para completar, Devops, devs -> developer, ops-> operaciones. Por tanto se explica como ese subconjunto entre developers, 
+La definición de wikipedia, la tenéis al principio del post. Para completar, Devops, devs -> developer | ops-> operaciones. Por tanto se explica como ese subconjunto entre developers, 
 qa y IT. Otra explicación más casera sería decir que es el tio o rol que trabaja los scripts y tiene criterio para definir este escenario. A las empresas y equipos que les gustan las etiquetas ya tienen 
 una más. Pero como IAC considero que el devops hace mucho años que existe en algunos equipos simplemente ahora le hemos puesto nombre y lo hemos profesionalizado más. 
 
