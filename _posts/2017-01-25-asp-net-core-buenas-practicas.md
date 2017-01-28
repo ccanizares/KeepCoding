@@ -86,12 +86,14 @@ En <b>asp.net core</b> por defecto solemos tener un fichero de settings appsetti
 Sea como sea cuando queremos usar un setting o sección en un servicio o controlador inyectaremos <b>IOptions&lt;NombreDeNuestraClase&gt;</b>. Previamente nos habremos creado esta clase con los settings que necesitamos como propiedades y le habremos dicho a nuestra aplicación al arrancar que los valores de los settings que necesita la clase están en la sección o archivo que corresponda. Veamos un ejemplo. 
 
 Me crearé un fichero de settings MySettings.json con el siguiente contenido pero podría haber creado los settings en el fichero por defecto appsettings.json que suele incorporar la plantilla: 
+
 ```
 "SettingA": "http://.../",
 "SettingB": "http://.../"
 ```
 
 Como he creado un fichero de configuración adicional tendré que decirle a la aplicación que lea sus valores al arrancar del siguiente modo:
+
 ```
  var builder = new ConfigurationBuilder()
                       .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true) 
@@ -99,6 +101,7 @@ Como he creado un fichero de configuración adicional tendré que decirle a la a
 ```
 
 Para disponer de los settings tipados me crearé un objeto dummy como este:
+
 ```
 public class MySettings
 {
@@ -115,6 +118,7 @@ services.Configure<MySettings>(Configuration);
 ```
 
 Por último cuando necesitemos recuperar un valor inyectaremos <b>Options&lt;MySettings&gt;</b> en nuestra clase usando la inyección de dependencias oob del framework. 
+
 ```
 public MyService(IOptions<AppSettings> settings)
 {
@@ -130,6 +134,7 @@ Pues bien, un error común es ponerse a crear una api que no va a hacer uso de v
 Por tanto si vas a desarrollar una web api no importes mvc completo usa mejor <b>Microsoft.AspNetCore.Mvc.Core</b> que te proporcionará todo lo que necesitas para una api evitando de este modo mover dlls innecesarias en los procesos de restore, build y publish. Sólo tendrás que tener en cuenta lo siguiente: 
 
 Al arrancar en vez services.addMvc le diremos que cargue el paquete alternativo y le tenemos que configurar manualmente el formatter para json. 
+
 ```
     services.AddMvcCore()
         .AddJsonFormatters();
