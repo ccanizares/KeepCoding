@@ -1,6 +1,6 @@
 ---
 title: Keep Coding!
-updated: 2015-09-11 15:56
+updated: 2016-09-11 15:56
 ---
 
 No sé como habrás llegado a leer este post, tal vez me conozcas del trabajo, algun evento, te haya llegado algún post por redes sociales o simplemente buscas algo concreto por la red y el bueno de google te ha traído aquí. 
