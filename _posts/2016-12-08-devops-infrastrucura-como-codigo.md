@@ -22,8 +22,7 @@ Otro tema es que uno va adquiriendo más profesionalidad y se empieza a sacar re
 y consolidan las versiones de software. Por tanto la necesidad de máquina crece exponencialmente a medida que en el desarrollo de software evoluciona. 
 
 ### Evolución II - Involucramos IT + Virtualización
-Con el tiempo la empresa donde estaba pasó a tener area própia de IT. Estos montaron un sistema de virtualización y mi Pc paso a ser un servidor  
-enracado en el CPD de la empresa que mantenía el area de IT, al cual mediante una solicitud o ticket podías pedirle a IT que crease 
+Con el tiempo la empresa donde estaba pasó a tener area própia de IT. Estos montaron un sistema de virtualización y mi Pc paso a ser un servidor enracado en el CPD de la empresa que mantenía el area de IT, al cual mediante una solicitud o ticket podías pedirle a IT que crease 
 una imagen nueva o modificase las características de otra, etc. Esto ya permitía tener más de una máquina. 
 
 ### Integración continua
