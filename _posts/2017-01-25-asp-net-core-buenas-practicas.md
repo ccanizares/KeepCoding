@@ -120,7 +120,7 @@ services.Configure<MySettings>(Configuration);
 Por último cuando necesitemos recuperar un valor inyectaremos <b>Options&lt;MySettings&gt;</b> en nuestra clase usando la inyección de dependencias oob del framework. 
 
 ```
-public MyService(IOptions<AppSettings> settings)
+public MyService(IOptions<MySettings> settings)
 {
   _settingA = settings.Value.SettingA;
 }
