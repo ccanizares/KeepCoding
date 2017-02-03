@@ -36,6 +36,10 @@ Task<IEnumerable<MyEntity>> GetByTypeAndCaducity(DateTime caducity, MyEntityType
 }
 ```
 
+Más info: 
+https://msdn.microsoft.com/en-us/library/bb882637(v=vs.110).aspx
+
+
 
 
 
