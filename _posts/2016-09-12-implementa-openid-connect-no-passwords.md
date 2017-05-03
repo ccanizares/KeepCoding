@@ -47,8 +47,6 @@ Te dejo un serie de enlaces por si te interesa el tema y quieres adentrarte en l
 
 <a href='https://azure.microsoft.com/es-es/documentation/articles/active-directory-code-samples/'>Ejemplos .net</a>
 
-<a href='https://ptgmedia.pearsoncmg.com/images/9780735696945/samplepages/9780735696945.pdf'>Modern Authentication with Azure Active Directory for Web Applications (Libro)</a>
-
 [^1]: Discuss si que permite el registro a través de un tercero como Google o Facebook pero pide un password al finalizar el registro. A la práctica necesito recordar ese password que por coherencia debería ser diferente al de mi proveedor de identidad. 
 [^2]: Algunas desarrollas en .Net (web forms), otras .net (mvc) y otras en Java.
 [^3]: En este tipo de escenarios donde interviene un AD local necesitarás conocimientos de WsFederation. 
