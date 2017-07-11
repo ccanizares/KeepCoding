@@ -47,11 +47,11 @@ Ok, let’s start to check if everything works.. Click on topics, you should see
 
 <img src='../assets/Keepcoding_Docker_Kafka_Screen.png' />
 
-If we subscribe to this topic and take a look to the console we can see how messages are recibed (manually generated from kafka tool).
+If we subscribe to this topic and take a look to the console we can see how messages are received (manually generated from kafka tool).
 
 <img src='../assets/KeepCoding_Kafka_Node_Express_Docker.png' />
 
 ### Conclusion 
 
-node-kafka pakage I'm using in this poc works and it's documentation rules. On the other side we have a docker compose file that we can use for other pocs or simulations.
+node-kafka pakage I'm using in this poc works and it's documentation rules. On the other side now I have a docker compose file that can used for other pocs or simulations.
 
