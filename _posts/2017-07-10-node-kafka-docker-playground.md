@@ -5,7 +5,7 @@ layout: post
 category: blog
 author: canizarescarlos
 description: Playground; Node Kafka Docker
-image: /assets/images/keepcoding_docker_kafka_node_playground.png
+image: https://ccanizares.github.io/KeepCoding/assets/images/keepcoding_docker_kafka_node_playground.png
 headerImage: true
 ---
 
