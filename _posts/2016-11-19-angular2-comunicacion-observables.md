@@ -1,6 +1,10 @@
 ---
-title: Angular2 - observables entre componentes 
+title: Angular - observables entre componentes 
 updated: 2016-11-19 15:56
+layout: post
+category: blog
+author: canizarescarlos
+description: KeepCoding
 ---
 
 En el post de hoy comparto un escenario en una aplicación Angular 2, un poco de teoría, código y reflexiones. Creo que un ejemplo de la ‘vida real’ donde no simulen super heroes puede aportar algo a la gente que empieza a trabajar con Angular 2. 
@@ -11,7 +15,7 @@ El escenario es el típico carrito de la compra y esta es la estructura de compo
 
 Los verdes son header y footer, el principal del centro magenta representa el componente catalogo (en realidad es router-outlet) y cada recuadro naranja de dentro representa un componente catalog-item. En la esquina superior derecha tenemos el componente cesta (amarillo).  
 
-<img src="../assets/angular2_components_sample.png" >
+<img src="../assets/images/angular2_components_sample.png" >
 
 Bien, si seguimos las buenas prácticas de Angular, estructuración de módulos, dependencias y demás, tendremos varios módulos ya en este dibujo. Seguramente te interese tener un módulo layout, otro catalógo, otro para todo lo relacionado con la cesta y el típico Shared que no puede faltar (idioma, log, etc..). 
 

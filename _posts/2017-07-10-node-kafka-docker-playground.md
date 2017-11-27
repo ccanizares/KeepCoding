@@ -1,10 +1,16 @@
 ---
 title: Playground; Node Kafka Docker 
 updated: 2017-07-10 09:10
+layout: post
+category: blog
+author: canizarescarlos
+description: Playground; Node Kafka Docker
+image: /assets/images/keepcoding_docker_kafka_node_playground.png
+headerImage: true
 ---
 
 
-<img src='../assets/keepcoding_docker_kafka_node_playground.png' />
+<!--<img src='../assets/images/keepcoding_docker_kafka_node_playground.png' />-->
 <p>
 In this post I'm sharing some instructions to set up a playground to test a little bit with kafka topics from a node application. 
 </p>
@@ -32,12 +38,12 @@ Once you have kafka and zookeeper running you can focus on javascript client. Lo
 
 4 -	Run node index.js (need node)
 
-<img src='../assets/Kafka_Node_Docker_KeepCoding.png' />
+<img src='../assets/images/Kafka_Node_Docker_KeepCoding.png' />
 
 At this point I recommend to install in your machine any client tool, I’ve used <a href='http://www.kafkatool.com/download.html' >Kakfa tool for Mac</a> (cannot find any working quick alternative to manage kafka from a dockerized app). 
 Within this application you can ensure that the cluster is up, you can connect and also use this application to create a topic. 
 
-<img src='../assets/KeepCoding_Docker_Node_Kafka.png' />
+<img src='../assets/images/KeepCoding_Docker_Node_Kafka.png' />
 
 Once you have created a topic, you can open a browser and navigate to http://localhost:3000'. 
 
@@ -45,11 +51,11 @@ First screen let you enter a different connection string if you want to connect 
 
 Ok, let’s start to check if everything works.. Click on topics, you should see listed the topic you have already created in the previous step. 
 
-<img src='../assets/Keepcoding_Docker_Kafka_Screen.png' />
+<img src='../assets/images/Keepcoding_Docker_Kafka_Screen.png' />
 
 If we subscribe to this topic and take a look to the console we can see how messages are received (manually generated from kafka tool).
 
-<img src='../assets/KeepCoding_Kafka_Node_Express_Docker.png' />
+<img src='../assets/images/KeepCoding_Kafka_Node_Express_Docker.png' />
 
 ### Conclusion 
 

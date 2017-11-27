@@ -1,13 +1,20 @@
 ---
 title: Implementa OpenId Connect, no más passwords!
+layout: post
 updated: 2016-09-12 15:56
+image: /assets/images/openid.png
+headerImage: true
+star: false
+category: blog
+author: canizarescarlos
+description: Implementa OpenId Connect
 ---
 
 En el mundo web actual el protocolo de autenticación que parece ya se ha establecido en OpenId Connect que vendría a ser una extensión del más conocido OAuth 2.0. OAuth está diseñado para hacer frente a procesos de autorización (...) mientras OpenId Connect es una especificación que extiende OAuth 2.0 para proporcionarle un mecanismo de autenticación y por tanto poder identificar al usuario. 
 
 Por poner un ejemplo para hospedar este blog estoy registrado en el servicio web que me proporciona GitHub y para dotar del apartado de comentarios he optado por darme de alta en el servicio que proporciona Discuss [^1]. Para cada uno tengo un username y un password diferente, porque en este caso estos servicios no optan por implementar este protocolo. Mientras escribo post pongo música molona de fondo con Spotify en el cual me he registrado con la identidad que me proporciona un tercero en este caso facebook. 
 
-[Según esta clafisicación que acabamos de hablar podríamos enumerar diferentes tipos de proveedores de servicios:](#)
+#### Según esta clafisicación que acabamos de hablar podríamos enumerar diferentes tipos de proveedores de servicios:
 
 1 - Los que directamente te registras creando un usuario + email y una contraseña (GitHub)
 

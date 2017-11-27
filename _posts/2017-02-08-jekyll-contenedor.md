@@ -1,6 +1,11 @@
 ---
 title: Jekyll en contenedor
 updated: 2017-02-08 09:10
+layout: post
+category: blog
+author: canizarescarlos
+description: Jekyll en contenedor
+
 ---
 
 Si te dispones a usar <b>jekyll</b> en un Pc <b>windows</b> <b>docker</b> puede serte de bastante utilidad. En los últimos meses me ha tocado reinstalar todo mi entorno de trabajo dos o tres veces y tengo que decir que usando Windows y trabajando con .net y relacionados a día de hoy no es demasiado costoso. Lo que me cuesta es poner en marca el blog que necesita <b>jekyll</b> y para instalarlo en <b>Windows</b> acabas instalándote <b>chocolatey</b>, <b>ruby</b>, etc... y casi siempre he tenido algún problema y acabo dedicando tiempo a buscar info porque no conozco demasiado ruby. 
@@ -30,11 +35,11 @@ services:
 
 Una vez lo tienes, con powershell lanzas el comando <b>docker-compose up</b>. 
 
-<img src='../assets/docker_jekyll_contenedor_compose.png'>
+<img src='../assets/images/docker_jekyll_contenedor_compose.png'>
 
 Ya puedes navegar a la web en el puerto 4000.
 
-<img src='../assets/docker_jekyll_contenedor_web.png'>
+<img src='../assets/images/docker_jekyll_contenedor_web.png'>
 
 
 

@@ -1,6 +1,10 @@
 ---
 title: DevOps y Infrastructura cómo código
 updated: 2016-10-12 12:00
+layout: post
+category: blog
+author: canizarescarlos
+description: DevOps y Infrastructura cómo código
 ---
 
 A lo largo de estos dos últimos años se ha puesto de moda el termino DevOps y también el concepto infrastructura como código IAC. 

@@ -1,18 +1,8 @@
 ---
 layout: default
 ---
+{% include header.html %}
 
-<article>
+{{content}}
 
-	<h1 class="title">{{ page.title }}</h1>
-
-	<div class="divider"></div>
-
-	{{ content }}
-
-
-</article>  
-
-<div class="back">
-	<a href="{{site.baseurl}}/">Back</a>
-</div>
+{% include footer.html %}

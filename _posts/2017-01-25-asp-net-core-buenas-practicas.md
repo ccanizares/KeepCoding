@@ -1,6 +1,10 @@
 ---
 title: Buenas prácticas asp.net core
 updated: 2017-01-25 15:56
+layout: post
+category: blog
+author: canizarescarlos
+description: Buenas prácticas asp.net core
 ---
 
 En el post de hoy me propongo recopilar algunas buenas prácticas a la hora de trabajar con <b>asp.net core</b> que he ido adquiriendo de algún proyecto, charlas
