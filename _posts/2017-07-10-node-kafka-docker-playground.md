@@ -1,10 +1,10 @@
 ---
-title: Playground; Node Kafka Docker 
+title: Playground - Node Kafka Docker 
 updated: 2017-07-10 09:10
 layout: post
 category: blog
 author: canizarescarlos
-description: Playground; Node Kafka Docker
+description: Playground - Node Kafka Docker
 image: https://ccanizares.github.io/KeepCoding/assets/images/keepcoding_docker_kafka_node_playground.png
 headerImage: true
 ---
