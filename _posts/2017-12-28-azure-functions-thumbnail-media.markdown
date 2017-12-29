@@ -76,7 +76,7 @@ Once we are in, no mistery the trigger configuration is already set in the previ
 }
 {% endhighlight %}
 
-Know we are ready to code this thumbnail utility... we are using node.js so searching for libraries [this](https://www.npmjs.com/package/jimp) seem to fit. We will need to add a package.json (by default it's not provided) to our function so we can add this lib. For this purpose you can use App Settings editor or Kudu or directly open a console... Take a look to the picture below. Once we are in, we define an empty package.json and then as we would do in a node app we add the package using the npm command. 
+Now we are ready to code this thumbnail utility... we are using node.js so searching for libraries [this](https://www.npmjs.com/package/jimp) seem to fit. We will need to add a package.json (by default it's not provided) to our function so we can add this lib. For this purpose you can use App Settings editor or Kudu or directly open a console... Take a look to the picture below. Once we are in, we define an empty package.json and then as we would do in a node app we add the package using the npm command. 
 
 <img src='../assets/images/azure-function-thumbnail-media-app-service-editor.png' />
 
