@@ -1,6 +1,6 @@
 ---
 title: Azure Functions - Working Locally
-updated: 2017-12-28 06:10
+updated: 2017-12-29 06:10
 layout: post
 category: blog
 author: canizarescarlos
