@@ -5,6 +5,8 @@ layout: post
 category: blog
 author: canizarescarlos
 description: How to work deploy local functions to Azure
+image: https://ccanizares.github.io/KeepCoding/assets/images/MSAzure-functions.png
+headerImage: true
 ---
 
 This post will end a serie of three posts talking about Azure Functions, the fist post was about basics I created a function directly using the Azure Portal, in the second we saw how to start locally and code functions in your environment and finally in this post I will show how to deploy your local code to Azure.

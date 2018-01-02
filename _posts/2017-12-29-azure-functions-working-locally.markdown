@@ -5,6 +5,8 @@ layout: post
 category: blog
 author: canizarescarlos
 description: How to work locally with Azure Functions
+image: https://ccanizares.github.io/KeepCoding/assets/images/MSAzure-functions.png
+headerImage: true
 ---
 
 In the [previous post](https://ccanizares.github.io/KeepCoding/azure-functions-thumbnail-media/) I wrote an introduction to Azure Functions. That sample was created directly within the Azure Portal. That function is triggered when somebody push a picture to a blob storage and is responsible of generating thumbnails. As I told at the end of the previous post, creating, coding and testing the function directly in the Azure Portal is not an ideal solution ...

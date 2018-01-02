@@ -5,6 +5,8 @@ layout: post
 category: blog
 author: canizarescarlos
 description: How to create an Azure Function that is able to generate a thumbnail when a image is uploaded into a storage account.
+image: https://ccanizares.github.io/KeepCoding/assets/images/MSAzure-functions.png
+headerImage: true
 ---
 
 In this post I'm gonna show how to create an azure function that have the mission of generate a thumbnail image for each picture that is being uploaded to a blob storage and save it in another container within the same storage account.
