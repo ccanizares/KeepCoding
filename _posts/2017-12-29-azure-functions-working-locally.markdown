@@ -13,7 +13,7 @@ In the [previous post](https://ccanizares.github.io/KeepCoding/azure-functions-t
 
 I'm currently working on mac so my first challenge was to see if it's possible to work locally in a non Windows environment and... Microsoft did it, I'm able to create, code and test locally within my mac. Kudo's for Microsoft. (Preview)
 
-In [this page](https://docs.microsoft.com/es-es/azure/azure-functions/functions-run-local) you will find all you need... In my case I'm using v2 because I need to run it on a mac. I'm gonna skip in this post the explanation about how to create the function within this tool because I won't do it better than this doc, it's pretty clear. 
+In [this page](https://docs.microsoft.com/es-es/azure/azure-functions/functions-run-local) you will find all you need... In my case I'm using v2 because I need to run it on a mac. I'm gonna skip in this post the explanation about how to create the function within this tool because I won't do it better than this doc, it's pretty clear. To be able to use this tooling you need prior to install .net core 2 in your machine.
 
 ## Running previous sample in local
 
