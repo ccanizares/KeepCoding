@@ -75,3 +75,5 @@ Once done you click on validate again and you should pass the validation.
 If your original site runs over https you need to configure SSL binding is this site aswell otherwise the CNAME redirection will show ssl restrictions in browser and problably won't work. 
 
 About how to bind an ssl certificate in App Service there is no mistery pretty intuitive this part, only share this link where you can find info about how to convert a .cer/.key to .pfx file you need to upload it. 
+
+[PFX](https://www.sherweb.com/blog/when-given-crt-and-key-files-make-a-pfx-file/)
