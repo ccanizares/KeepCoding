@@ -58,7 +58,7 @@ To achieve this you need to create an App Service and configure custom domain an
 
 #### Setting up custom domain 
 
-You need to demonstrate to the App Service that you own the domain, this is done adding an entry in your DNS. 
+Addressed to Linux guys this step of setting up custom domains is the equivalent for configuring ingress. The only confusing part I've found is that you need to demonstrate to the App Service that you own the domain, this is done adding an entry in your DNS. 
 
 <img src='../assets/images/azure-dns-cname-redirection.png' />
 
