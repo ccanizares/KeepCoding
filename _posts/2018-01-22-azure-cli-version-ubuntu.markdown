@@ -1,5 +1,5 @@
 ---
-title: azure-cli download specific version on ubuntu
+title: Azure-CLI - Get specific version on ubuntu
 updated: 2018-01-22 06:10
 layout: post
 category: blog

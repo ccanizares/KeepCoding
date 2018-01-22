@@ -1,5 +1,5 @@
 ---
-title: Azure DNS, CNAME redirections
+title: Azure DNS - CNAME redirections
 updated: 2018-01-11 06:10
 layout: post
 category: blog
