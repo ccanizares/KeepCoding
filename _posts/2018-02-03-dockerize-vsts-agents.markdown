@@ -12,10 +12,6 @@ headerImage: true
 
 In this post I'm gonna explain how to set up a custom agent and take profit of that machine using docker images and containers for <strong>running more than one agent instance in that machine</strong>. The information I'm showing in this post could be useful for your time if you use VSTS, you define CD/CI tasks, automatic testing, etc... as the team and project is growing you can run into a bottleneck scenario where pipe tasks expend more time than desired queued waiting for a machine to run.
 
-<img src='../assets/images/dockerize-vsts-agent-waiting.jpeg' />
-
-First you need to know is how agents work in VSTS. 
-
 #### Build pipes 
 
 When you define a build pipe you need to select an Agent Queue where the task related to the build will be executed.
